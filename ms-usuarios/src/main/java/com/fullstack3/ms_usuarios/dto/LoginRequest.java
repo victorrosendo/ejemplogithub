@@ -9,7 +9,7 @@ public class LoginRequest {
     @NotBlank(message = "El correo es obligatorio")
     @Email(message = "Debe ingresar un correo valido")
     private String correo;
-
+//hola hola
     @NotBlank(message = "El password es obligatorio")
     private String password;
 }
