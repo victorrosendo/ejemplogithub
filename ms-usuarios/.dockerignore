@@ -1,0 +1,12 @@
+# ============================================================
+# ARCHIVO: ms-usuarios/.dockerignore  (y ms-productos/.dockerignore)
+# DESCRIPCIÓN: Excluye archivos innecesarios del contexto de build.
+# Evita copiar el target/ ya compilado localmente (podría
+# interferir con el build dentro del contenedor).
+# ============================================================
+
+target/
+.git
+.gitignore
+*.md
+.mvn/wrapper/maven-wrapper.jar
